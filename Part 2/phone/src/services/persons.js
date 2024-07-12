@@ -1,5 +1,5 @@
 import axios from 'axios'
-const URL = '/api/persons/'
+const URL = "https://phone-backend-rough-pond-7964.fly.dev/api/persons" || '/api/persons'
 
 const getAll = () => {
     return axios.get(URL)
