@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "mongo": "node mongo.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "Alejandro Díaz",
   "license": "ISC",
@@ -18,7 +19,13 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.7.0",
     "@flydotio/dockerfile": "^0.5.7",
+    "@stylistic/eslint-plugin-js": "^2.3.0",
+    "eslint": "^9.7.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
     "nodemon": "^3.1.4"
   }
 }
